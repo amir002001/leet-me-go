@@ -1,0 +1,5 @@
+package main
+
+func mergeKLists(lists []*ListNode) *ListNode {
+	return mergeTwoLists(mergeKLists(lists[:len(lists)/2]), mergeKLists(lists[len(lists)/2:]))
+}
