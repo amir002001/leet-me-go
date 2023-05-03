@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-type Codec struct{}
+// type Codec struct{}
 
 // Encodes a list of strings to a single string.
 func (codec *Codec) Encode(strs []string) string {
