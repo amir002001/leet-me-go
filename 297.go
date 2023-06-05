@@ -7,9 +7,9 @@ import (
 
 type Codec struct{}
 
-func Constructor() Codec {
-	return Codec{}
-}
+// func Constructor() Codec {
+// 	return Codec{}
+// }
 
 // Serializes a tree to a single string.
 func (this *Codec) serialize(root *TreeNode) string {
